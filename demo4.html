@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  .container {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 90px 90px;
+    /*grid-auto-columns: 60px;*/
+    background-color: #abc98a;
+  }
+
+  .item-a {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: blue;
+  }
+
+  .item-b {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+    background-color: red;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item-a"></div>
+    <div class="item-b"></div>
+  </div>
+</body>
+</html>

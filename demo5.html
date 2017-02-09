@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>grid-auto-flow</title>
+  <style>
+  .container {
+    display: grid;
+    grid-template-columns: 100px 80px 160px 40px;
+    grid-template-rows: 80px 50px 100px;
+    background-color: red;
+    grid-auto-flow: row dense;
+  }
+
+  .item {
+    border: 1px solid blue;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">a</div>
+    <div class="item">b</div>
+    <div class="item">c</div>
+    <div class="item">d</div>
+    <div class="item">e</div>
+    <div class="item">f</div>
+  </div>
+</body>
+</html>
