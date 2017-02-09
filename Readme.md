@@ -144,8 +144,8 @@ iOS Not supported
 
 属性值：
 
-+ **<track-size\>** 可以是长度，百分比，或者栅格中的空白空间（使用 `fr`）
-+ **<line-name\>** 任意名字，任君选择
++ **&lt;track-size\>** 可以是长度，百分比，或者栅格中的空白空间（使用 `fr`）
++ **&lt;line-name\>** 任意名字，任君选择
 
 ``` css
 .container{
@@ -225,7 +225,7 @@ iOS Not supported
 
 属性值：
 
-+ **<grid-area-name\>** 在项目中使用 [`grid-area`](#prop-grid-area) 属性指定的栅格区域
++ **&lt;grid-area-name\>** 在项目中使用 [`grid-area`](#prop-grid-area) 属性指定的栅格区域
 + **.** 句点表示空白栅格格子
 + **none** 不定义栅格区域
 
@@ -281,7 +281,7 @@ iOS Not supported
 
 + **none** 设置这三个属性为初始属性
 + **subgrid** 设置 `grid-template-rows` 和 `grid-template-columns` 为 `subgrid`，`grid-template-areas` 为初始值。
-+ **<grid-template-columns\> / <grid-template-rows\>** 设置 `grid-template-columns` 与 `grid-template-rows` 为各自指定的值。而 `grid-template-areas` 为 `none`。
++ **&lt;grid-template-columns\> / &lt;grid-template-rows\>** 设置 `grid-template-columns` 与 `grid-template-rows` 为各自指定的值。而 `grid-template-areas` 为 `none`。
 
 ``` css
 .container{
@@ -321,7 +321,7 @@ iOS Not supported
 
 属性值：
 
-+ **<line-size\>** 长度值
++ **&lt;line-size\>** 长度值
 
 ``` css
 .container{
@@ -352,7 +352,7 @@ iOS Not supported
 
 属性值：
 
-+ **<grid-row-gap\> <grid-column-gap\>** 长度值
++ **&lt;grid-row-gap\> &lt;grid-column-gap\>** 长度值
 
 ``` css
 .container{
@@ -666,7 +666,7 @@ iOS Not supported
 
 属性值：
 
-+ **<track-size>** 可以是长度，百分比或者 `fr`
++ **&lt;track-size>** 可以是长度，百分比或者 `fr`
 
 ``` css
 .container{
@@ -800,8 +800,8 @@ iOS Not supported
 属性值：
 
 + **none** 设置所有子属性的值为初始值。
-+ **<grid-template-rows\> / <grid-template-columns\>** 仅仅设置这两个属性值，其它子属性值为初始值。
-+ **<grid-auto-flow\> [<grid-auto-rows\> [ / <grid-auto-columns\>] ]** 如果 [`grid-auto-columns`](#prop-grid-auto-rows) 属性值确实，则采用 [`grid-auto-rows`](#prop-grid-auto-rows)的值。如果属性值均缺失，则采用默认值。
++ **&lt;grid-template-rows\> / &lt;grid-template-columns\>** 仅仅设置这两个属性值，其它子属性值为初始值。
++ **&lt;grid-auto-flow\> [&lt;grid-auto-rows\> [ / &lt;grid-auto-columns\>] ]** 如果 [`grid-auto-columns`](#prop-grid-auto-rows) 属性值确实，则采用 [`grid-auto-rows`](#prop-grid-auto-rows)的值。如果属性值均缺失，则采用默认值。
 
 ``` css
 .container{
@@ -874,9 +874,9 @@ iOS Not supported
 
 属性值：
 
-+ **<Line\>** 可以是一个表示栅格线名字或数字。
-+ **span <number\>** 项目将横跨指定数量栅格轨迹
-+ **span <name\>** 项目将横跨至指定名字的栅格线
++ **&lt;Line\>** 可以是一个表示栅格线名字或数字。
++ **span &lt;number\>** 项目将横跨指定数量栅格轨迹
++ **span &lt;name\>** 项目将横跨至指定名字的栅格线
 + **auto** 自动放置，自动跨越轨迹或者默认跨越轨迹
 
 ``` css
@@ -924,7 +924,7 @@ iOS Not supported
 
 属性值：
 
-+ **<start-line\> / <end-line\>** 接收 grid-column-start 同样的属性值，包括 span
++ **&lt;start-line\> / &lt;end-line\>** 接收 grid-column-start 同样的属性值，包括 span
 
 ``` css
 .item{
@@ -953,8 +953,8 @@ Example:
 
 属性值：
 
-+ **<name\>**
-+ **<row-start\> / <column-start\> / <row-end\> / <column-end\>**
++ **&lt;name\>**
++ **&lt;row-start\> / &lt;column-start\> / &lt;row-end\> / &lt;column-end\>**
 
 ``` css
 .item{
